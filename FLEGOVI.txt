@@ -1,0 +1,1 @@
+gcc -v -Wall -std=c99 -I "C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\include" -L "C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\lib\x64" filter.c -fopenmp -lOpenCL -O3 -o filter
